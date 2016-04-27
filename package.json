@@ -1,12 +1,9 @@
 {
-  "name": "gulp-angular-module-dependency",
+  "name": "gulp-angular-module-dependencies",
   "version": "0.1.0",
-  "description": "AngularJs",
+  "description": "Add automatically AngularJs dependency to the main module.",
   "main": "index.js",
-  "scripts": {
-    "jasmine": "./node_modules/.bin/jasmine-node spec/",
-    "test": "istanbul cover jasmine-node --captureExceptions spec/"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/DanielBertocci/gulp-angular-module-dependencies.git"
