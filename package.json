@@ -1,0 +1,39 @@
+{
+  "name": "gulp-angular-module-dependency",
+  "version": "0.1.0",
+  "description": "AngularJs",
+  "main": "index.js",
+  "scripts": {
+    "jasmine": "./node_modules/.bin/jasmine-node spec/",
+    "test": "istanbul cover jasmine-node --captureExceptions spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielBertocci/gulp-angular-module-dependency.git"
+  },
+  "keywords": [
+    "gulp",
+    "angular",
+    "angularjs",
+    "angular.js",
+    "modules",
+    "dependency"
+  ],
+  "author": "Daniel Bertocci <danielbertocci@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielBertocci/gulp-angular-module-dependency/issues"
+  },
+  "homepage": "https://github.com/DanielBertocci/gulp-angular-module-dependency",
+  "dependencies": {
+    "arr-union": "^3.1.0",
+    "array-unique": "^0.2.1",
+    "condense-whitespace": "^1.0.0",
+    "gulp-util": "3.0.7",
+    "newline-remove": "^1.0.2",
+    "strip-comments": "0.4.4",
+    "through2": "2.0.1",
+    "whitespace-remove": "^1.0.2"
+  },
+  "devDependencies": {}
+}
