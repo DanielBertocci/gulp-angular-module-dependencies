@@ -1,9 +1,8 @@
 {
   "name": "gulp-angular-module-dependencies",
   "version": "0.1.0",
-  "description": "Add automatically AngularJs dependency to the main module.",
+  "description": "Adds automatically dependencies to the AngularJs main module.",
   "main": "index.js",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/DanielBertocci/gulp-angular-module-dependencies.git"
@@ -26,7 +25,6 @@
     "array-unique": "^0.2.1",
     "gulp-util": "3.0.7",
     "strip-comments": "0.4.4",
-    "through2": "2.0.1",
-  },
-  "devDependencies": {}
+    "through2": "2.0.1"
+  }
 }

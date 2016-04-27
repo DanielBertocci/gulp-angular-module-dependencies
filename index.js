@@ -11,9 +11,9 @@ var PluginError = gutil.PluginError;
 // Constants.
 const PLUGIN_NAME = 'gulp-angular-module-dependency';
 
-function angularModuleDependency(options) {
+function angularModuleDependency(module, options) {
     options = options || {};
-    options.module = options.module || "app";
+    options.module = module || "app";
     options.angularObjectName = options.angularObjectName || "angular";
     
     // Stores all module found and the module to add dependencies.
@@ -77,7 +77,6 @@ function angularModuleDependency(options) {
     }
     
     function sendBack(cb) {
-        console.log(typeof mainModuleFile !== 'object');
         if (typeof mainModuleFile !== 'object') {
             throw new PluginError(PLUGIN_NAME, 'The "' + options.module + '" module was not found in any file.');
         }
