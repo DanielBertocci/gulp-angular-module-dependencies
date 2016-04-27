@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanielBertocci/gulp-angular-module-dependency.git"
+    "url": "https://github.com/DanielBertocci/gulp-angular-module-dependencies.git"
   },
   "keywords": [
     "gulp",
@@ -22,18 +22,14 @@
   "author": "Daniel Bertocci <danielbertocci@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DanielBertocci/gulp-angular-module-dependency/issues"
+    "url": "https://github.com/DanielBertocci/gulp-angular-module-dependencies/issues"
   },
-  "homepage": "https://github.com/DanielBertocci/gulp-angular-module-dependency",
+  "homepage": "https://github.com/DanielBertocci/gulp-angular-module-dependencies",
   "dependencies": {
-    "arr-union": "^3.1.0",
     "array-unique": "^0.2.1",
-    "condense-whitespace": "^1.0.0",
     "gulp-util": "3.0.7",
-    "newline-remove": "^1.0.2",
     "strip-comments": "0.4.4",
     "through2": "2.0.1",
-    "whitespace-remove": "^1.0.2"
   },
   "devDependencies": {}
 }
