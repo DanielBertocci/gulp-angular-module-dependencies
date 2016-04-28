@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-module-dependencies",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Adds automatically dependencies to the AngularJs main module.",
   "main": "index.js",
   "repository": {
