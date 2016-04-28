@@ -21,14 +21,14 @@ function angularModuleDependency(module, options) {
         moduleList = [];
     
     function cleanFileContents(contents) {
+        // Removes all comments.
+        contents = stripComments(contents);        
+
         // Removes all new lines.
         contents = contents.replace(/(\r\n|\n|\r)/gm, '');
         
         // Removes all white spaces
         contents = contents.replace(/( )/gm, '');
-        
-        // Removes all comments.
-        contents = stripComments(contents);
         
         return contents;
     }
