@@ -78,7 +78,8 @@ function angularModuleDependency(module, options) {
     
     function sendBack(cb) {
         if (typeof mainModuleFile !== 'object') {
-            throw new PluginError(PLUGIN_NAME, 'The "' + options.module + '" module was not found in any file.');
+            cb();
+            return;
         }
         
         if (!mainModuleFile.contents) {
