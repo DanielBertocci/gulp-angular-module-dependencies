@@ -86,7 +86,7 @@ function angularModuleDependency(module, options) {
             throw new PluginError(PLUGIN_NAME, 'Something was wrong retrieving the module file.');
         }
         
-        var dependencies = arrayUnique(moduleList).filter(isEmptyString).sort().join("',\n\t'"),
+        var dependencies = arrayUnique(moduleList).filter(isEmptyString).join("',\n\t'"),
             contents = mainModuleFile.contents.toString(),
             regex = new RegExp(options.angularObjectName + '\\.module[\\s]*\\([\\s]*["\']' + options.module + '["\'][\\s]*,[\\s]*\\[[^\\]]*\\]', 'g');
         

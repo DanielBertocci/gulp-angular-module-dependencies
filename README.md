@@ -1,12 +1,14 @@
+# gulp-angular-module-dependencies
+
 ## Install
 ```
-$ npm install --save-dev gulp-angular-module-dependencies
+$ npm i --save-dev gulp-angular-module-dependencies
 ```
 
 ## Description
 
 This module helps you to find all `Angular.js` modules declared in your project and automatically add them as dependencies to the main app module.
-Preserve all declared dependencies.
+Preserve all declared dependencies and the declaration order.
 
 ## Usage
 ```javascript
